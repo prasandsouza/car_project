@@ -8,6 +8,6 @@ module.exports = function problem2(inventory){
     }
     else
     {
-        return inventory
+        return []
     }
 }

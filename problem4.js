@@ -13,6 +13,6 @@ module.exports = function(inventory)
     return caryear;
     }
     else{
-        return inventory
+        return []
     }
 }

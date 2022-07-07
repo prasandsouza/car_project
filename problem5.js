@@ -15,6 +15,6 @@ module.exports = function problem(inventory) {
     return caryear
     }
     else{
-        return inventory
+        return []
     }
 }

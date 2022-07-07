@@ -10,6 +10,6 @@ module.exports = function(inventory)
     }
     else
     {
-        return inventory
+        return []
     }
 }
