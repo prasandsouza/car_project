@@ -1,5 +1,5 @@
 module.exports = function problem2(inventory){
-    if(!inventory){
+    if(!inventory && inventory.length>20){
         return [];
     }
     if(Array.isArray(inventory)){
