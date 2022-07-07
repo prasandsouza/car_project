@@ -1,4 +1,8 @@
 module.exports = function problem(inventory) {
+    if(!inventory){
+        return [];
+    }
+    if(Array.isArray(inventory)){
     let caryear = []
     for (let index = 0; index < inventory.length; index++) 
     {
@@ -9,4 +13,8 @@ module.exports = function problem(inventory) {
         
     }
     return caryear
+    }
+    else{
+        return inventory
+    }
 }
