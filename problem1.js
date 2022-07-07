@@ -4,7 +4,7 @@ module.exports = function problem1(inventory, id)
     {
         return [];
     }
-    if(inventory.length==0)
+    if(inventory.length==0 && inventory.length>20)
     {
         return inventory
     }
@@ -28,5 +28,5 @@ module.exports = function problem1(inventory, id)
                 return inventory
             }
     }
-    
+
 }
