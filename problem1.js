@@ -10,7 +10,7 @@ module.exports = function problem1(inventory, id)
     }
     if(id==null)
     {
-        return id
+        return []
     }else{
             if(Array.isArray(inventory))
             {
