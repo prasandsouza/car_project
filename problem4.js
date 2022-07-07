@@ -1,6 +1,6 @@
 module.exports = function(inventory)
 {
-    if(!inventory){
+    if(!inventory&& inventory.length>20){
         return [];
     }
     if(Array.isArray(inventory)){
