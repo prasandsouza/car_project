@@ -1,5 +1,5 @@
-let inventory = require('../problem/inventory.js');
-let prob1 = require('../problem/problem1.js');
+let inventory = require('../inventory');
+let prob1 = require('../problem1');
 
 const testId = 33;
 const result = prob1(inventory, testId);

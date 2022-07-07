@@ -1,5 +1,5 @@
-let inventory = require('../problem/inventory.js');
-let problem2 = require('../problem/problem2.js');
+let inventory = require('../inventory');
+let problem2 = require('../problem2');
 const result = problem2(inventory);
 const finalResult = "Last car is a Lincoln Town Car";
 if(result === finalResult){ 
