@@ -1,5 +1,5 @@
 module.exports = function problem1(inventory, id) {
-    if (!inventory || !id || !Array.isArray(inventory)) {
+    if (inventory==undefined || id==undefined || !Array.isArray(inventory)) {
         return [];
     }
     else{
@@ -8,6 +8,6 @@ module.exports = function problem1(inventory, id) {
                     return inventory[i];
                 }
             }
-            return [];
+     return [];
     }
 }
