@@ -1,16 +1,13 @@
 module.exports = function problem1(inventory, id) {
-    if (!inventory || !id) {
+    if (!inventory || !id || !Array.isArray(inventory)) {
         return [];
     }
-    else 
-    {   
-        if (Array.isArray(inventory)) {
-
+    else{
             for (let i = 0; i < inventory.length; i++) {
                 if (inventory[i].id === id) {
                     return inventory[i];
                 }
             }
-        }else{return []}
+            return [];
     }
 }
